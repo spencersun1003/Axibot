@@ -16,24 +16,53 @@ At the software level, we implement the high-sensitivity wireless control throug
 
 ## Implementation
 
-Model & Quantity
+<table>
+    <tr>
+        <td>Module</td>
+        <td>Quantity</td>
+    </tr>
+    <tr>
+        <td>Arduino Mega 2560</td>
+        <td>2</td>
+    </tr>
+        <tr>
+        <td>Raspberry Pi Zero W</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Step Motor (A4988 Enabled)</td>
+        <td>5</td>
+    </tr>
+        <tr>
+        <td>Servo</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>DC motor (L298N Enabled)</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>Main Camera</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Secondary Camera</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>2.4G contorller</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Regulator Module</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Others</td>
+        <td>Li-ion Battery (&Meter)</td>
+    </tr>
+</table>
 
-Arduino Mega 2560 x 2
-Raspberry Pi Zero W x 1
-Step Motor (A4988 Enabled) x 5
-Servo x 2
-DC motor (L298N Enabled) x 4
-Main Camera x 1
-Secondary Camera x 1
-2.4G contorller x 1
-Regulator Module x 1
-Others: Li-ion Battery (&Meter)
-
-
-![](/Demo/HWArchitecture.jpg)
-![](/Demo/PCB.svg)
-![](/Demo/SoftwareArchitecture.svg)
-![](/Demo/LSTM.svg)
 
 
 
